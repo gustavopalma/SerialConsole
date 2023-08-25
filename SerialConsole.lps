@@ -7,9 +7,9 @@
       <Unit>
         <Filename Value="SerialConsole.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <CursorPos X="32" Y="16"/>
-        <UsageCount Value="66"/>
+        <UsageCount Value="109"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -19,9 +19,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="80"/>
-        <CursorPos X="54" Y="99"/>
-        <UsageCount Value="66"/>
+        <TopLine Value="67"/>
+        <CursorPos X="20" Y="97"/>
+        <UsageCount Value="109"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -31,7 +31,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="2183"/>
         <CursorPos X="25" Y="2177"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="2"/>
       </Unit>
       <Unit>
         <Filename Value="../TLazSerial-0.6/lazserial.pas"/>
@@ -39,26 +39,19 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="51"/>
         <CursorPos X="22" Y="68"/>
-        <UsageCount Value="32"/>
+        <UsageCount Value="28"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../TLazSerial/lazsynaser.pas"/>
+        <UnitName Value="LazSynaSer"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="699"/>
+        <CursorPos X="38" Y="725"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="USerialconsole.pas"/>
-        <Caret Line="96" Column="27" TopLine="71"/>
-      </Position>
-      <Position>
-        <Filename Value="USerialconsole.pas"/>
-        <Caret Line="104" Column="22" TopLine="71"/>
-      </Position>
-      <Position>
-        <Filename Value="USerialconsole.pas"/>
-        <Caret Line="108" Column="37" TopLine="89"/>
-      </Position>
-      <Position>
-        <Filename Value="USerialconsole.pas"/>
-        <Caret Line="207" Column="84" TopLine="183"/>
-      </Position>
       <Position>
         <Filename Value="USerialconsole.pas"/>
         <Caret Line="179" Column="203" TopLine="169"/>
@@ -163,10 +156,50 @@
         <Filename Value="USerialconsole.pas"/>
         <Caret Line="94" Column="9" TopLine="85"/>
       </Position>
+      <Position>
+        <Filename Value="USerialconsole.pas"/>
+        <Caret Line="99" Column="54" TopLine="80"/>
+      </Position>
+      <Position>
+        <Filename Value="USerialconsole.pas"/>
+        <Caret Line="197" Column="37" TopLine="181"/>
+      </Position>
+      <Position>
+        <Filename Value="USerialconsole.pas"/>
+        <Caret Line="183" TopLine="169"/>
+      </Position>
+      <Position>
+        <Filename Value="../TLazSerial/lazsynaser.pas"/>
+      </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="USerialconsole.pas"/>
+        <Line Value="189"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="USerialconsole.pas"/>
+        <Line Value="83"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="USerialconsole.pas"/>
+        <Line Value="183"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>

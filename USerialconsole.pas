@@ -186,7 +186,7 @@ begin
      exit;
    end;
 
-  LazSerial1.WriteData(txtMsg.Text);
+  LazSerial1.WriteData(txtMsg.Text + #13#10);
 end;
 
 procedure TFrmPlotter.FormClose(Sender: TObject; var CloseAction: TCloseAction);
